@@ -1,1 +1,1 @@
-# Encrypting Hashing Against Localization
+# Encrypting Hashing against Localization
