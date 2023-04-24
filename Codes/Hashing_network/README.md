@@ -1,1 +1,1 @@
-# This section is the code used for training and testing deep hashing networks.
+# This part is the code used for training and testing deep hashing networks.
