@@ -9,7 +9,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '4'
 parser = argparse.ArgumentParser()
 
 # the information of data set
-parser.add_argument('--dataset_name', dest='dataset', default='SpaceNet')
+parser.add_argument('--dataset_name', dest='dataset', default='NWPU-RESISC45')
 parser.add_argument('--data_dir', dest='data_dir', default='./data/')
 parser.add_argument('--database_file', dest='database_file', default='database_img.txt')
 parser.add_argument('--database_label', dest='database_label', default='database_label.txt')
@@ -22,7 +22,7 @@ parser.add_argument('--test_label', dest='test_label', default='test_label.txt')
 parser.add_argument('--train', dest='train', type=bool, default=True)
 parser.add_argument('--test', dest='test', type=bool, default=True)
 parser.add_argument('--batch_size', dest='batch_size', type=int, default=24)
-parser.add_argument('--hashing_network', dest='method', default='HashNet')
+parser.add_argument('--hashing_network', dest='method', default='DPSH')
 parser.add_argument('--backbone', dest='backbone', default='ResNet50')
 parser.add_argument('--code_length', dest='bit', type=int, default=64)
 parser.add_argument('--load_exist_model', dest='load', type=bool, default=False)
