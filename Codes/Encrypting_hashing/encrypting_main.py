@@ -6,7 +6,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '4'
 parser = argparse.ArgumentParser()
 
 # the information of data set
-parser.add_argument('--dataset_name', dest='dataset', default='SpaceNet')
+parser.add_argument('--dataset_name', dest='dataset', default='NWPU-RESISC45')
 parser.add_argument('--dataset_classes', dest='classes', type=int, default=20)
 parser.add_argument('--data_dir', dest='data_dir', default='./data/')
 parser.add_argument('--database_file', dest='database_file', default='database_img.txt')
