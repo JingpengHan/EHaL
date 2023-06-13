@@ -19,7 +19,7 @@ parser.add_argument('--test_label', dest='test_label', default='test_label.txt')
 # training or test the class encryptor, encrypted patch generator and encrypted patch discriminator
 parser.add_argument('--train', dest='train', type=bool, default=True)
 parser.add_argument('--test', dest='test', type=bool, default=True)
-parser.add_argument('--batch_size', dest='batch_size', type=int, default=64)
+parser.add_argument('--batch_size', dest='batch_size', type=int, default=32)
 parser.add_argument('--hashing_network', dest='hash_method', default='DPSH')
 parser.add_argument('--backbone', dest='backbone', default='ResNet50')
 parser.add_argument('--code_length', dest='bit', type=int, default=32)
