@@ -21,7 +21,7 @@ parser.add_argument('--test_label', dest='test_label', default='test_label.txt')
 # train or test the deep hashing network
 parser.add_argument('--train', dest='train', type=bool, default=True)
 parser.add_argument('--test', dest='test', type=bool, default=True)
-parser.add_argument('--batch_size', dest='batch_size', type=int, default=24)
+parser.add_argument('--batch_size', dest='batch_size', type=int, default=32)
 parser.add_argument('--hashing_network', dest='method', default='DPSH')
 parser.add_argument('--backbone', dest='backbone', default='ResNet50')
 parser.add_argument('--code_length', dest='bit', type=int, default=64)
