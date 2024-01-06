@@ -552,6 +552,8 @@ class PatchEncryptionModel(nn.Module):
         for it, data in enumerate(test_loader):
             data_input, _, data_ind = data
             select_index = np.random.choice(range(encrypt_labels.size(0)), size=data_ind.size(0))
+            while (encrypt_labels[select_index] == _).all():
+                select_index = np.random.choice(range(encrypt_labels.size(0)), size=data_ind.size(0))
             batch_encrypt_label = encrypt_labels.index_select(0, torch.from_numpy(select_index))
             encrypted_labels[data_ind.numpy(), :] = batch_encrypt_label.numpy()
             data_input = set_input_images(data_input)
