@@ -5,4 +5,4 @@ The SpaceNet data set and the results download address:   [Here](https://pan.bai
 
 In addition, in order to better validate the effectiveness of the encrypted patch generator, we conducted training and testing on the public remote sensing dataset NWPU-RESISC45.
 
-NWPU-RESISC45 data set download address:   [Here](https://pan.baidu.com/s/1d2gIQmCmW74wC5_f3aAQLQ) Extracted code：6n5f
+The NWPU-RESISC45 data set download address:   [Here](https://pan.baidu.com/s/1d2gIQmCmW74wC5_f3aAQLQ) Extracted code：6n5f
